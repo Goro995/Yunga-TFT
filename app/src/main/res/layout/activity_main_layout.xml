@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:id="@+id/main_screen_layout"
+    tools:context="tft.yunga.yungatft.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tasks_screen_footer_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="-15dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/white_color"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/main_screen_toolbar_text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_color" />
+
+        <ImageView
+            android:id="@+id/plus_button"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/plus_icon"
+            android:padding="5dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="5dp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/prev_month_text"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="15dp"
+        android:gravity="center"
+        android:text="Прошедшие"
+        android:textSize="16sp"
+        android:padding="2dp"
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:id="@+id/curr_month_text"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Эта неделя"
+        android:textSize="18sp"
+        android:padding="2dp"
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:id="@+id/next_month_text"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:text="Будущие"
+        android:textSize="16sp"
+        android:padding="2dp"
+        android:textColor="@color/text_color"/>
+
+    <View android:background="#b6b4b6"
+        android:layout_marginTop="100dp"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drag_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_color"
+        android:layout_marginTop="100dp" />
+
+</RelativeLayout>

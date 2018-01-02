@@ -2,5 +2,8 @@
     <string name="app_name">Yunga TFT</string>
     <string name="mc_on_your_event">Вудущий на Ваш праздник \n Андрей Федорченко</string>
     <string name="main_screen_toolbar_text">Юнга TFT</string>
+    <string name="change">Изменить</string>
+    <string name="delete">Удалить</string>
+    <string name="something_changed">Эй, что-то поменялось?</string>
 
 </resources>

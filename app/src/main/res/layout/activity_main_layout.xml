@@ -37,8 +37,13 @@
 
     </android.support.v7.widget.Toolbar>
 
+    <View android:background="#666666"
+        android:layout_marginTop="50dp"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"/>
+
     <TextView
-        android:id="@+id/prev_month_text"
+        android:id="@+id/prev_events_text"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
@@ -51,7 +56,7 @@
         android:textColor="@color/text_color"/>
 
     <TextView
-        android:id="@+id/curr_month_text"
+        android:id="@+id/curr_events_text"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_centerInParent="true"
@@ -64,7 +69,7 @@
         android:textColor="@color/text_color"/>
 
     <TextView
-        android:id="@+id/next_month_text"
+        android:id="@+id/future_events_text"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_alignParentEnd="true"
@@ -76,16 +81,16 @@
         android:padding="2dp"
         android:textColor="@color/text_color"/>
 
-    <View android:background="#b6b4b6"
+    <View android:background="#666666"
         android:layout_marginTop="100dp"
         android:layout_width = "match_parent"
         android:layout_height="1dp"/>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/drag_list_view"
+    <ListView
+        android:id="@+id/events_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white_color"
-        android:layout_marginTop="100dp" />
+        android:layout_marginTop="101dp" />
 
 </RelativeLayout>

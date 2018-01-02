@@ -7,7 +7,9 @@
     <color name="splash_screen_text_color">#1d6f82</color>
     <color name="light_blue_color">#50aeff</color>
     <color name="white_color">#ffff</color>
-    <color name="background_color">#89e68c</color>
-    <color name="text_color">#760572</color>
+    <color name="background_color">#FFD700</color>
+    <color name="text_color">#5e071d</color>
+    <color name="item_background">#53a2cc</color>
+    <color name="weak_text_color">#959696</color>
 
 </resources>
